@@ -53,8 +53,8 @@ void loop() {
   // Serial.println();
   
   
-  int x = random(-200,201);//genere une coordonnée entre -200 et 200
-  int y = random(-200,201);//genere une coordonnée entre -200 et 200
+  int x = random(-300,301);//genere une coordonnée entre -200 et 200
+  int y = random(-300,301);//genere une coordonnée entre -200 et 200
   String msg = "DAISY:"+String(x)+String(y);
   Serial.print("Sending: " + msg + " - ");
   for (unsigned int i = 0; i < msg.length(); i++) {
